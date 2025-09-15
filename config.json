@@ -1,0 +1,14 @@
+{
+  "jobs": [
+    {
+      "origem": {
+        "tabela": "users",
+        "colunas": ["username", "email", "password_hash", "salt", "created_at", "updated_at"]
+      },
+      "destino": {
+        "tabela": "dbo.users",
+        "colunas": ["username", "email", "password_hash", "salt", "created_at", "updated_at"]
+      }
+    }
+  ]
+}
